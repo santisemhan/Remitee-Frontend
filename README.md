@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center" id="top">
+  <img src="https://github.com/user-attachments/assets/e07b0b03-6b80-4497-8398-b025f1388ce4" width="300" alt="App Logo" />
+</div>
+<br/>
 
-## Getting Started
+<div align="center" id="top">
+  <img src="https://github.com/user-attachments/assets/aa802bb9-5aae-401f-b2db-4aa93b3274b6" width="900" alt="App Screenshot" />
+  <img src="https://github.com/user-attachments/assets/cf0b0976-07f8-4e70-9631-0d052349f14a" width="900" alt="App Screenshot Light" />
+</div>
 
-First, run the development server:
+## :dart: About ##
+This repository contains the frontend application for the Remitee technical challenge, built with Next.js. The application consumes the Remitee Backend API (a REST API built with .NET).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## :checkered_flag: Get Started ##
+
+### 🧰 Prerequisites
+
+- [Node.js](https://nodejs.org/) (v22+ recommended)
+- The [Remitee Backend](https://github.com/santisemhan/Remitee-Backend) running locally
+
+## :computer: Development Technologies Used ##
+
+- [Next.js 15](https://nextjs.org/) (App Router)
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Zustand](https://zustand-demo.pmnd.rs/) for state management
+- [React Query](https://tanstack.com/query/latest) for data fetching
+- [React Hook Form](https://react-hook-form.com/) with Zod validation
+- [Hero UI](https://www.heroui.com/) for UI components
+
+### ⚙️ Environment Configuration
+
+1. Create a new `.env` file in the project root
+2. Add the following configuration:
+
+```env
+NEXT_PUBLIC_API_BASE_URL=http://localhost:5000/api
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚀 Running the Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Clone this project
+git clone https://github.com/santisemhan/Remitee-Frontend
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Navigate into the folder
+cd Remitee-Frontend
 
-## Learn More
+# Install dependencies
+npm install
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Run the development server
+npm run dev
+```

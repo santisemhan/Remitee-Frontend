@@ -35,7 +35,7 @@ This repository contains the frontend application for the Remitee technical chal
 2. Add the following configuration:
 
 ```env
-NEXT_PUBLIC_API_BASE_URL=http://localhost:5000/api
+NEXT_PUBLIC_BASE_URL=https://localhost:5000/api
 ```
 
 ### 🚀 Running the Project
